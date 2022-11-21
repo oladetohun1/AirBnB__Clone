@@ -21,5 +21,6 @@ After 4 months, we will have a complete web application composed by:
 
 ---
 # coded by:
-[jubrealguy](https://www.github.com/jubrealguy)
-[oladetohun1](https://www.github.com/oladetohun1)
+- [jubrealguy](https://www.github.com/jubrealguy)
+
+- [oladetohun1](https://www.github.com/oladetohun1)
