@@ -19,6 +19,10 @@ class Hbnb(cmd.Cmd):
         """exit the interpreter"""
         return True
 
+    def emptyline(self):
+        """Nothing should happen"""
+        pass
+
 
 if __name__ == "__main__":
     Hbnb().cmdloop()
