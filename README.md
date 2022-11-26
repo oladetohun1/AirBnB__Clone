@@ -2,3 +2,7 @@
 
 # README AirBnB_clone
 Creating a console for the AirBnB clone website
+## Authors
+
+[oladetohun1](https://www.github.com/oladetohun1)
+[Jubrealguy](https://www.github.com/jubrealguy)
