@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://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@github.com/oladetohun1/AirBnB_clone.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "adebayo"]
+	remote = origin
+	merge = refs/heads/adebayo
