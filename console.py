@@ -6,6 +6,7 @@ The entry point of the command interpreter
 
 import cmd
 
+
 class Hbnb(cmd.Cmd):
     """Command lines for the command interpreter"""
 
@@ -26,5 +27,3 @@ class Hbnb(cmd.Cmd):
 
 if __name__ == "__main__":
     Hbnb().cmdloop()
-
-
