@@ -15,8 +15,7 @@ class TestBaseModel(unittest.Testcase):
     def test_str(self):
         """Test if ___str__ show the right output"""
         self.objct = BaseModel()
-        self.string = f'[{self.objct.__class__.name}]
-        ({self.obj.id}) {self.obj.__dict__}'
+        self.string = f'[{self.objct.__class__.name}] ({self.obj.id}) {self.obj.__dict__}'
         self.assertEqual(self.string, str(self.objct))
 
     def test_save(self):
