@@ -50,7 +50,7 @@ class BaseModel:
         my_dict['created_at'] = self.created_at
 
         return '[{}] ({}) {}'.format(self.__class__.__name__, self.id,
-                                         my_dict)
+                                     my_dict)
 
     def save(self):
         """updates the public instance attribute updated_at with the
