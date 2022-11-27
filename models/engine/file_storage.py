@@ -122,7 +122,7 @@ class FileStorage:
         try:
             with open(FileStorage.__file_path) as file:
                 return json.load(file)
-        except:
+        except Exception:
             pass
 
     def to_snake_case(self, text):
