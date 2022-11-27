@@ -5,9 +5,11 @@ A class  that defines all common attributes/methods for other classes
 
 from uuid import uuid4
 from datetime import datetime
-#from models import storage
+from models import storage
+
 
 class BaseModel:
+
     """
     Class containing attributes and methods
     which serves as a base
@@ -35,26 +37,27 @@ class BaseModel:
             self.id = str(uuid4())
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
-            #storage.new(self)
-
+            storage.new(self)
 
         self.id = str(uuid4())
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
-        #storage.new(self)
+        storage.new(self)
+
     def __str__(self):
         """ A string representation of
         the base model
         """
 
         return ("[{}} ({}) {}".format(self.__class__.__name__, self.id,
-                                            self.__dict__))
+                self.__dict__))
 
     def save(self):
         """ Changing the base model object and updating it"""
 
         self.updated_at = datetime.now()
-        #storage.now
+        storage.now
+
     def to_dict(self):
         """ A dictionary containing attributes of the base model"""
 
