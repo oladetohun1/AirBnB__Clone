@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
-creating a unique filestorage instance
 models module documentation
+
 storage is a singleton to FileStorage
 and reload objects to file.json
 """
