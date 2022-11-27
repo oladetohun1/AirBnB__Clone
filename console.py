@@ -20,6 +20,10 @@ class Hbnb(cmd.Cmd):
 
     prompt = "(hbnb) "
 
+    classes = {"BaseModel": BaseModel, "User": User, "State": State,
+               "City": City, "Amenity": Amenity, "Place": Place,
+               "Review": Review}
+
     def do_quit(self, line):
         """exit the interpreter"""
         return True
