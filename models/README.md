@@ -1,6 +1,4 @@
-# 0x00. AirBnB clone - The console
-
-## Description
+# The console
 
 This repository contains the first tasks of the AirBnB clone project for [ALX](https://www.alxafrica.com/software/).
 During this first part of the project we had to::
@@ -59,8 +57,3 @@ Documented commands (type help <topic>):
 EOF  help  quit  create  destroy  show  all  update
 $
 ```
-## Authors
-| Name | GitHub username |
-| ------ | ------ |
-| Yunus Kidem | [Yunus-kidem](https://github.com/Yunus-kidem) |
-| Promise Yehangane  | [nuel07](https://github.com/nuel07) |
